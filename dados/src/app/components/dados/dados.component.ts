@@ -14,8 +14,8 @@ export class DadosComponent {
 
   tirarDados = ():void => {
 
-    this.numero1 = Math.round(Math.random() * 5) + 1;
-    this.numero2 = Math.round(Math.random() * 5) + 1;
+    this.numero1 = Math.floor(Math.random() * 6) + 1;
+    this.numero2 = Math.floor(Math.random() * 6) + 1;
     console.log(this.numero1);
     console.log(this.numero2);
 
